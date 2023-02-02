@@ -1,0 +1,53 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fredoka', sans-serif;
+}
+
+.debug {
+  background-color: blue;
+  height:100px;
+  width: 300px;
+  border: 2px solid black;
+}
+
+main header {
+  text-align: center;
+  margin: 2rem;
+}
+
+#app-main {
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.container {
+  width: 1170px;
+  margin: 1rem auto;
+  margin-left: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  width: calc(100% / 3);
+  float: left;
+  
+  margin-top: 2rem;
+}
+
+h1 {
+  color: #E53170;
+  text-align: center;
+  margin: 2rem;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
