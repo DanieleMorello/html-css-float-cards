@@ -41,14 +41,15 @@ h1 {
 }
 
 .card {
-  width: 300px;
-  width: calc(100% / 3 +1rem);
-  float: left;
-  margin-top: 3rem;
-  margin-left: 2rem;
-  box-shadow: 0 0 10px var(--meet-gray);
-  background-color: var(--meet-dark);
-  color: var(--meet-light);
+    /* width: 300px; */
+    width: calc(100% / 6 + 8.3rem);
+    float: left;
+    /* padding-top: 0.8rem; */
+    margin-top: 3rem;
+    margin-left: 2rem;
+    box-shadow: 0 0 10px var(--meet-gray);
+    background-color: var(--meet-dark);
+    color: var(--meet-light);
 }
 
 div img {
@@ -58,7 +59,8 @@ div img {
 }
 
 h2 {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  padding-top: .7rem
 }
 
 a {
