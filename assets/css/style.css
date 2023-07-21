@@ -22,7 +22,7 @@ main header {
   margin: 2rem;
 }
 
-#app-main {
+#site_main {
   width: 70%;
   margin: 2rem auto;
 }
@@ -41,13 +41,13 @@ h1 {
 }
 
 .card {
-    width: calc(100% / 6 + 8.3rem);
-    float: left;
-    margin-top: 3rem;
-    margin-left: 2rem;
-    box-shadow: 0 0 10px var(--meet-gray);
-    background-color: var(--meet-dark);
-    color: var(--meet-light);
+  width: calc(100% / 6 + 8.3rem);
+  float: left;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  box-shadow: 0 0 10px var(--meet-gray);
+  background-color: var(--meet-dark);
+  color: var(--meet-light);
 }
 
 div img {
@@ -58,7 +58,7 @@ div img {
 
 h2 {
   font-size: 1.1rem;
-  padding-top: .7rem
+  padding-top: 0.7rem;
 }
 
 a {
