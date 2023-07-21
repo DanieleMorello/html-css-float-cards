@@ -8,7 +8,7 @@
 :root {
   --meet-dark: #000000;
   --meet-light: #ffffff;
-  --meet-blue: #55c9de;
+  --meet-primary: #55c9de;
   --meet-pink: #e53170;
   --meet-gray: #808080;
 }
@@ -62,7 +62,7 @@ h2 {
 }
 
 a {
-  color: var(--meet-blue);
+  color: var(--meet-primary);
   text-decoration: none;
 }
 
