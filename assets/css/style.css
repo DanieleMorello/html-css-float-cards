@@ -9,8 +9,8 @@
   --meet-dark: #000000;
   --meet-light: #ffffff;
   --meet-primary: #55c9de;
-  --meet-pink: #e53170;
-  --meet-gray: #808080;
+  --meet-secondary: #808080;
+  --meet-tertiary: #e53170;
 }
 
 body {
@@ -35,7 +35,7 @@ main header {
 }
 
 h1 {
-  color: var(--meet-pink);
+  color: var(--meet-tertiary);
   text-align: center;
   margin: 2rem;
 }
@@ -45,7 +45,7 @@ h1 {
   float: left;
   margin-top: 3rem;
   margin-left: 2rem;
-  box-shadow: 0 0 10px var(--meet-gray);
+  box-shadow: 0 0 10px var(--meet-secondary);
   background-color: var(--meet-dark);
   color: var(--meet-light);
 }
@@ -72,6 +72,6 @@ a {
   clear: both;
 }
 
-.site_footer {
+#site_footer {
   text-align: center;
 }
